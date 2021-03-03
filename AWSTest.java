@@ -122,7 +122,7 @@ class AWSTest {
 	@Test
 	void testDoubleTheElements() {
 		
-		int[] org = originalAWS.getValues();
+		//int[] org = originalAWS.getValues();
 		
 		originalAWS.doubleTheElements();
 		

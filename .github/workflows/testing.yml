@@ -27,6 +27,6 @@ jobs:
         java-version: 11
     
     - name: Run Unit Tests
-      run : javac -cp AWSTest.java 
+      run : javac -cp AWSTest.java AWS.java
       
       

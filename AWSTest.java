@@ -96,6 +96,7 @@ class AWSTest {
 	}
 	@Test
 	void testFillAndExpandWithNegative() {
+		//todo
 		int position = 1;
 		int numberOfTimes = -2;
 		
@@ -116,8 +117,28 @@ class AWSTest {
 		 
 		assertEquals(first, result[0]);
 
-	
 	}
+	
+	@Test
+	void testDoubleTheElements() {
+		
+		int[] org = originalAWS.getValues();
+		
+		originalAWS.doubleTheElements();
+		
+		int[] result = originalAWS.getValues();
+		
+		int[] expected = {2, 4, 6};
+		
+		assertEquals(expected[0], result[0]);
+		assertEquals(expected[0], result[0]);
+		assertEquals(expected[0], result[0]);
+	
+		
+	}
+	
+	
+	
 
 
 }

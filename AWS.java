@@ -56,4 +56,9 @@ public class AWS {
 		values = newArray;
 	}
 
+	public void doubleTheElements() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

@@ -96,7 +96,23 @@ public class AWS {
 		
 		public int[] stepMultiplier() {
 			// TODO Auto-generated method stub
-			return null;
+			
+			for(int i =0; i<values.length; ++i) {
+			
+				if (values[i] <10) {
+					  // block of code to be executed if condition1 is true
+					  values[i] = values[i]*2	
+				} else if (values[i] <20) {
+					  // block of code to be executed if the condition1 is false and condition2 is true
+					values[i] = values[i]*4	
+				} else if(values[i] <100){
+					  // block of code to be executed if the condition1 is false and condition2 is false
+					values[i] = values[i]*100	
+				}
+				
+			}
+			
+			return values;
 		}
 		
 		

@@ -182,8 +182,8 @@ class AWSTest {
 	void testStepMultiplier()
 	{
 		
-		int[] original = {0,5,15,25,50,75};
-		int[] expected = {0,10,60,2500,5000,7500};
+		int[] original = {0,5,15,25,50,75,110};
+		int[] expected = {0,10,60,2500,5000,7500,110};
 		
 		AWS aws = new AWS(original);
 		
@@ -195,6 +195,7 @@ class AWSTest {
 		assertEquals(expected[3], result[3]);
 		assertEquals(expected[4], result[4]);
 		assertEquals(expected[5], result[5]);
+		assertEquals(expected[6], result[6]);
 						
 	} 
 	

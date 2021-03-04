@@ -9,7 +9,7 @@ public class AWS {
 		return Arrays.copyOf(values, values.length);
 		//return this.values;
 	}
-
+	//todo
 	public void setValues(int[] values) {
 		this.values = Arrays.copyOf(values, values.length);
 		//this.values = values;

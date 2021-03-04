@@ -68,5 +68,20 @@ public class AWS {
 		}
 		values = newArray;
 	}
+	
+	
+	public void doubleTheElements() {
+		// TODO Auto-generated method stub
+		//The method doubles the values of every element in the array.
+
+		for(int i =0; i<values.length; ++i) {
+
+			values[i] = 2*values[i];
+
+		}
+		
+		
+		
+		
 
 }

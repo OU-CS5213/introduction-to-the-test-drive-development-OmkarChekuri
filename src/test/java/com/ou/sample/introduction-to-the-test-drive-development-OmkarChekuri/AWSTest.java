@@ -134,5 +134,53 @@ class AWSTest {
 
 	
 	}
+	
+	@Test
+	void testDoubleTheElements() {
+
+		int[] org = originalAWS.getValues();
+
+		originalAWS.doubleTheElements();
+
+		int[] result = originalAWS.getValues();
+
+		int[] expected = {2, 4, 6};
+
+		assertEquals(expected[0], result[0]);
+		assertEquals(expected[0], result[0]);
+		assertEquals(expected[0], result[0]);
+
+
+	}
+	
+	
+	@Test 
+	void testRemoveBiggerThan() {
+		
+		int[] org = originalAWS.getValues();
+		
+		threshold = 2;
+		
+		int remainingElements = originalAWS.removeBiggerThan(int threshold);
+		
+		assertEquals(remainingElements, 2);
+		
+		int[] result = originalAWS.getValues();
+		
+		int[] expected = {1, 2, FILLER_VALUE};
+		
+		
+		assertEquals(expected[0], result[0]);
+		assertEquals(expected[1], result[1]);
+		assertEquals(FILLER_VALUE, result[2]);
+		
+		
+		
+		
+		
+	}
+	
+	
+	
 
 }

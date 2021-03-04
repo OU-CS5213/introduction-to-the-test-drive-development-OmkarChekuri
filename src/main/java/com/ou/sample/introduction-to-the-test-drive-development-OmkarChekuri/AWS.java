@@ -80,10 +80,18 @@ public class AWS {
 
 	}
 		
-	public int removeBiggerThan(int threshold) {
+		public int removeBiggerThan(int threshold) {
 			// TODO Auto-generated method stub
-			return 0;
-	}
+			int countOfBiggerValues= 0;
+			for(int i =0; i<values.length; ++i) {
+				if(values[i] > threshold)
+				{
+					countOfBiggerValues = countOfBiggerValues +1;
+					values[i] = FILLER_VALUE;
+				}
+			}
+			return countOfBiggerValues;
+		}
 		
 		
 

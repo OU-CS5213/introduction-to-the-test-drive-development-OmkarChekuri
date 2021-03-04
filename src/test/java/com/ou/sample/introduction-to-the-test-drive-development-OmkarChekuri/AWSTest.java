@@ -150,7 +150,6 @@ class AWSTest {
 		assertEquals(expected[0], result[0]);
 		assertEquals(expected[0], result[0]);
 
-
 	}
 	
 	@Test 

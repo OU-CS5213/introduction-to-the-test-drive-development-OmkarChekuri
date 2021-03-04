@@ -77,6 +77,7 @@ public class AWS {
 		for(int i =0; i<values.length; ++i) {
 
 			values[i] = 2*values[i];
+		}
 
 	}
 		

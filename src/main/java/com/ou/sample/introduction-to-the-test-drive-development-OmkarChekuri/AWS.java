@@ -92,8 +92,7 @@ public class AWS {
 			}
 			return countOfBiggerValues;
 		}
-		
-		
+
 		public int[] stepMultiplier() {
 			// TODO Auto-generated method stub
 			
@@ -104,7 +103,7 @@ public class AWS {
 					  values[i] = values[i]*2;	
 				} else if (values[i] <20) {
 					  // block of code to be executed if the condition1 is false and condition2 is true
-					values[i] = values[i]*4	;
+					values[i] = values[i]*4;	
 				} else if(values[i] <100){
 					  // block of code to be executed if the condition1 is false and condition2 is false
 					values[i] = values[i]*100;	
@@ -114,6 +113,7 @@ public class AWS {
 			
 			return values;
 		}
+
 		
 		
 

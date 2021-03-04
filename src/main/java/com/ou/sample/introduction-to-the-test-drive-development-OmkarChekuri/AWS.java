@@ -113,8 +113,6 @@ public class AWS {
 			
 			return values;
 		}
-
-		
 		
 
 }

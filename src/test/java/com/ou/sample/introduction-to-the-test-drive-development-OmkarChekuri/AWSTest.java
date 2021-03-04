@@ -153,7 +153,6 @@ class AWSTest {
 
 	}
 	
-	
 	@Test 
 	void testRemoveBiggerThan() {
 		
@@ -174,9 +173,8 @@ class AWSTest {
 		assertEquals(expected[1], result[1]);
 		assertEquals(FILLER_VALUE, result[2]);
 		
+		
 	}
-	
-	
 	
 	@Test
 	void testStepMultiplier()
@@ -197,8 +195,7 @@ class AWSTest {
 		assertEquals(expected[5], result[5]);
 		assertEquals(expected[6], result[6]);
 						
-	} 
-	
+	}
 	
 	
 	

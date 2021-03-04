@@ -80,7 +80,7 @@ public class AWS {
 
 	}
 		
-		public int removeBiggerThan(int threshold) {
+	public int removeBiggerThan(int threshold) {
 			// TODO Auto-generated method stub
 			int countOfBiggerValues= 0;
 			for(int i =0; i<values.length; ++i) {
@@ -91,9 +91,9 @@ public class AWS {
 				}
 			}
 			return countOfBiggerValues;
-		}
+	}
 
-		public int[] stepMultiplier() {
+	public int[] stepMultiplier() {
 			// TODO Auto-generated method stub
 			
 			for(int i =0; i<values.length; ++i) {
@@ -112,7 +112,7 @@ public class AWS {
 			}
 			
 			return values;
-		}
+	}
 		
 
 }

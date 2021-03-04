@@ -78,9 +78,12 @@ public class AWS {
 
 			values[i] = 2*values[i];
 
-		}
+	}
 		
-		
+	public int removeBiggerThan(int threshold) {
+			// TODO Auto-generated method stub
+			return 0;
+	}
 		
 		
 

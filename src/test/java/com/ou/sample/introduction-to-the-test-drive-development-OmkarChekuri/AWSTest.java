@@ -159,9 +159,9 @@ class AWSTest {
 		
 		int[] org = originalAWS.getValues();
 		
-		threshold = 2;
+		int threshold = 2;
 		
-		int remainingElements = originalAWS.removeBiggerThan(int threshold);
+		int remainingElements = originalAWS.removeBiggerThan(threshold);
 		
 		assertEquals(remainingElements, 2);
 		
@@ -174,8 +174,7 @@ class AWSTest {
 		assertEquals(expected[1], result[1]);
 		assertEquals(FILLER_VALUE, result[2]);
 		
-		
-		
+			
 		
 		
 	}

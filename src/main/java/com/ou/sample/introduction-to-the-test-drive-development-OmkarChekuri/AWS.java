@@ -94,5 +94,11 @@ public class AWS {
 		}
 		
 		
+		public int[] stepMultiplier() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
+		
 
 }
